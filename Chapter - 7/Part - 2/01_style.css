@@ -1,0 +1,13 @@
+#par {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+    color: white;
+    margin: 15px;
+}
