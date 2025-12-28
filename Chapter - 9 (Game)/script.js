@@ -56,7 +56,6 @@ const playgame = (userChoice) => {
 choices.forEach((choice) => {
     choice.addEventListener("click", () => {
         const userChoice = choice.getAttribute("id");
-        console.log(`${userChoice} was clicked`);
         playgame(userChoice);
     });
 });
